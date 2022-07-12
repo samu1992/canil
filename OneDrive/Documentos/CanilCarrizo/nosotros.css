@@ -12,7 +12,6 @@ body{
 	font-family: 'Space Grotesk', sans-serif;
 	padding-top: 80px;
 	}
-/*me faltan aun varias cosas por ejemplo un logo algunas fotos en una galeria*/
 .container__nav{
 	display: flex;
 	position: fixed;
@@ -153,7 +152,7 @@ body{
 	transition: transform 2s;*/
 }
  
-/*@keyframes nosotros{
+@keyframes nosotros{
 	0%{
 		background-color: rgba(0, 0, 0, 0.325);
 	}
@@ -166,11 +165,11 @@ body{
 	100%{
 		background-color: rgba(0, 0, 0, 0.8);
 	}
-}*/
+}
 
-/*.item:hover{
+.item:hover{
 	transform: scale(0.9);
-}*/
+}
 
 .container__footer {
 	width: 100%;
