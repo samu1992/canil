@@ -166,7 +166,7 @@ body{
  	}
  	100%{
  		height: 250px;
- 		width: 65%;
+ 		width: 70%;
  	}
  }
 
@@ -336,7 +336,7 @@ html{
 		width: 100%;
 		background-color: rgba(122, 169, 169, 0.7);
 		height: 100vh;
-		margin-top: 80px;
+		margin-top: 90px;
 		transition: all .7s;
 		font-size: 25px;
 		left: -100%;
@@ -386,10 +386,10 @@ html{
 @media only screen and (max-width: 450px){
 	.historia__texto span{
 		font-size: 25px;
-		line-height: 20px;
+		line-height: 25px;
 	}
 	.historia__texto p{
-		font-size: 10px;
+		font-size: 8px;
 	}
 	.delivery{
 		font-size: 20px;
