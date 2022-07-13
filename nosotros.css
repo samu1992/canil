@@ -249,7 +249,7 @@ body{
 	width: 90px;
 	height: 90px;
 	left: 0px;
-	background-image: url(img/LogoCanil2.png);
+	background-image: url(img/logocanil2.png);
 	background-size: cover;
 	background-position: center;
 }
@@ -318,7 +318,7 @@ body{
 	}
 
     .nav__responsive-li a:hover{
-    	color: #ffffff;
+    	color: #03382A;
     }
 
 
