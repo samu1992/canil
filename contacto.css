@@ -208,9 +208,10 @@ body{
 	width: 90px;
 	height: 90px;
 	left: 0px;
-	background-image: url(img/LogoCanil2.png);
+	background-image: url(img/logoCanil2.png);
 	background-size: cover;
 	background-position: center;
+	border: 2px solid white;
 }
 
 .subir{
