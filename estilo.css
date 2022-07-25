@@ -39,7 +39,7 @@ body{
 	transition: all 1s;
 }
 .container__ul li:hover{
-	transform: translate(5px, 10px);
+	transform: scale(1.1);
 }
 
 .container__ul a{
@@ -116,6 +116,10 @@ body{
 	background-size: cover;
 	background-position: center;
 	cursor: pointer;
+	transition: all 1s;
+}
+.deli .rappi:hover{
+	transform: scale(1.1);
 }
 
 .deli .peya{
@@ -123,6 +127,10 @@ body{
 	background-size: cover;
 	background-position: center;
 	cursor: pointer;
+	transition: all 1s;
+}
+.deli .peya:hover{
+	transform: scale(1.1);
 }
 
  .historia{
@@ -187,26 +195,31 @@ body{
 	text-align: center;
 	line-height: 25px;
 	color: #ffffff;
+	border-right: solid 1px rgba(255, 255, 255, 0.7);
+	transition: all 1s;
+}
+.item:hover{
+	transform: scale(1.1);
 }
 .item1{
-	background-image: url(img/local1.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/local1.jpg);
 	background-size: cover;
 	background-position: center;
 }
 .item2{
-	background-image: url(img/local2.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/local2.jpg);
 	background-size: cover;
 }
 .item3{
-	background-image: url(img/local3.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/local3.jpg);
 	background-size: cover;
 }
 .item4{
-	background-image: url(img/local4.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/local4.jpg);
 	background-size: cover;
 }
 .item5{
-	background-image: url(img/local5.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/local5.jpg);
 	background-size: cover;
 }
 
@@ -239,9 +252,14 @@ body{
 	transition: 0.8s;
 	font-size: 28px;
 	margin-top: 15px;
+	transition: all 1s;
 }
 .container__footer--redes a:hover{
 	color: rgba(250, 250, 250, 1.0);
+}
+.container__footer--redes li:hover{
+	transition: all 1s;
+	transform: scale(1.2);
 }
 
 .footer__enlaces{

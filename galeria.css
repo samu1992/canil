@@ -40,7 +40,7 @@ body{
 	transition: all 1s;
 }
 .container__ul li:hover{
-	transform: translate(5px, 10px);
+	transform: scale(1.1);
 }
 
 .container__ul a{
@@ -280,6 +280,12 @@ body{
 .container__footer--redes a:hover{
 	color: rgba(250, 250, 250, 1.0);
 }
+
+.container__footer--redes li:hover{
+	transition: all 1s;
+	transform: scale(1.2);
+}
+
 
 .footer__enlaces{
 	display: flex;
