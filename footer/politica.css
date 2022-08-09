@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.logo {
+  position: fixed;
+  width: 90px;
+  height: 90px;
+  left: 0px;
+  top: 10px;
+  background-image: url(logo/logocanil2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav__responsive-ul {
+  display: none;
+}
+
+.checkbtn {
+  color: #5F8179;
+  float: right;
+  font-size: 30px;
+  padding: 6px 20px;
+  cursor: pointer;
+  margin-top: -7px;
+  margin-right: 5px;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.container__nav {
+  display: flex;
+  position: fixed;
+  background-color: #1B2C27;
+  width: 100%;
+  height: 100px;
+  margin-top: -100px;
+  padding: 25px;
+  justify-content: flex-end;
+  z-index: 300;
+}
+
+.container__ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-top: 25px;
+}
+.container__ul li {
+  margin: 0;
+  padding: 0;
+}
+.container__ul li a {
+  margin: 0;
+  padding: 0;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "IBM Plex Mono", monoespacio;
+  text-transform: uppercase;
+  background-color: #1B2C27;
+  color: #ffffff;
+  border-radius: 10%;
+  text-decoration: none;
+  transition: all 0.8s;
+  font-weight: bolder;
+}
+.container__ul li a:hover {
+  padding: 5px;
+  font-size: 16px;
+  font-family: "IBM Plex Mono", monoespacio;
+  text-transform: uppercase;
+  background-color: #D3F2EB;
+  color: #03382A;
+  border-radius: 10%;
+  text-decoration: none;
+  transition: all 0.8s;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.t-1 {
+  padding-top: 10px;
+}
+
+.t-2 {
+  padding-top: 20px;
+}
+
+.t-3 {
+  padding-top: 30px;
+}
+
+.t-4 {
+  padding-top: 40px;
+}
+
+.contenido {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.contenido__right {
+  padding-top: 100px;
+}
+
+.container__footer {
+  margin-top: 25px;
+  height: 400px auto;
+  background-color: #293735;
+  padding: 25px;
+  padding-top: 50px;
+}
+.container__footer li {
+  margin: 0;
+  padding: 0;
+}
+.container__footer li a {
+  padding: 0px;
+  color: #5F8179;
+  margin: 20px;
+  font-size: 28px;
+  margin-top: 15px;
+  transition: all 1s;
+}
+.container__footer li a:hover {
+  color: #ffffff;
+}
+
+.copyright {
+  padding: 25px;
+  margin-top: 30px;
+}
+.copyright span {
+  color: #ffffff;
+}
+
+.footer__enlaces {
+  margin-bottom: 25px;
+}
+.footer__enlaces a {
+  color: #5F8179;
+}
+.footer__enlaces a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.subir {
+  background-color: #5F8179;
+  text-align: center;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  color: #000000;
+  font-size: 25px;
+  line-height: 40px;
+  box-shadow: 0 0 5px rgba(250, 250, 250, 0.7);
+}
+.subir:hover {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 863px) {
+  .container__nav {
+    position: fixed;
+  }
+  .container__ul {
+    display: none;
+  }
+  .nav__responsive-ul {
+    position: fixed;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(122, 169, 169, 0.7);
+    height: 100vh;
+    margin-top: 75px;
+    transition: all 0.7s;
+    font-size: 25px;
+    left: -100%;
+  }
+  .nav__responsive-li {
+    padding: 20px 20px;
+  }
+  .nav__responsive-li a {
+    color: #000000;
+    transition: all 0.7s;
+  }
+  .nav__responsive-li a:hover {
+    color: #03382A;
+  }
+  .checkbtn {
+    display: inline-block;
+  }
+  #check:checked ~ .nav__responsive-ul {
+    left: 0;
+  }
+}
+
+/*# sourceMappingURL=politica.css.map */
