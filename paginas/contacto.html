@@ -7,9 +7,9 @@
 	<meta name="description" content="En Canil.treats&coffe encontraras un espacio relajante y tranquilo donde podras disfrutar de un buen cafe o comida saludable junto a tu mascota">
 	<meta name="keywords" content="cafe, merienda, almuerzo, mascota, brunch">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,600;1,600&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="galeria.css">
+	<link rel="stylesheet" type="text/css" href="../estilos/contacto.css">
 	<script src="https://kit.fontawesome.com/4c078109ae.js" crossorigin="anonymous"></script>
-	<title>galeria</title>
+	<title>contacto</title>
 </head>
 <body>
 	<header class="container__nav">
@@ -19,46 +19,52 @@
 				<i class="fa-solid fa-bars"></i>
 			</label>
 		<ul class="container__ul">
-			<li><a href="index.html">inicio</a></li>
-			<li><a href="contacto.html">contacto</a></li>
+			<li><a href="../index.html">inicio</a></li>
+			<!--<li><a href="contacto.html">contacto</a></li>-->
 			<li><a href="nosotros.html">concepto</a></li>
 			<li><a href="Menu.html">nuestro menu</a></li>
-			<!--<li><a href="galeria.html">galeria</a></li>-->
+			<li><a href="galeria.html">galeria</a></li>
 		</ul>
 			<ul class="nav__responsive-ul">
 				<div class="nav__li-container">
 					<li class="nav__responsive-li"><a href="index.html">Inicio</a></li>
 					<li class="nav__responsive-li"><a href="nosotros.html">Concepto</a></li>
-					<li class="nav__responsive-li"><a href="contacto.html">Contacto</a></li>
+					<!--<li class="nav__responsive-li"><a href="#">Contacto</a></li>-->
 					<li class="nav__responsive-li"><a href="Menu.html">Nuestro Menu</a></li>
-					<!--<li class="nav__responsive-li"><a href="#">galeria</a></li>-->
+					<li class="nav__responsive-li"><a href="galeria.html">Galeria</a></li>
 				</div>
 				
 			</ul>
 	</header>
-	<div class="titulo"><h1><strong>conocé nuestra galeria y productos</strong></h1></div>
-	<section class="container__video">
-		<video autoplay controls muted><source src="videos/video.mp4" type="video/mp4"></video>
-		<video autoplay controls muted><source src="videos/video1.mp4" type="video/mp4"></video>
-		<video autoplay controls muted><source src="videos/video3.mp4" type="video/mp4"></video>
-	</section>
 	<aside class="aside">
-	  <section class="container__img">
-		   <div class="item1 item"></div>
-		   <div class="item2 item"></div>
-		   <div class="item3 item"></div>
-		   <div class="item4 item"></div>
-		   <div class="item5 item"></div>
-		   <div class="item6 item"></div>
-		   <div class="item7 item"></div>
-		   <div class="item8 item"></div>
-		   <div class="item9 item"></div>
-		   <div class="item10 item"></div>
-		   <div class="item11 item"></div>
-		   <div class="item12 item"></div>
-		   <div class="item13 item"></div>
-	  </section>
-	</aside>  	
+		<form class="form">
+			<div class="container__form">
+				<input type="text" class="form__input" placeholder="Nombre">
+			</div>
+			<div class="container__form">
+				<input type="email" class="form__input" placeholder="Email">
+			</div>
+			<div class="container__form">
+				<input type="text" class="form__input" placeholder="Motivo">
+			</div>
+			<div class="form__input--selec">
+				<select name="selecciona">
+
+                 <option>Consulta</option>
+
+                 <option>franquicia</option>
+
+                 <option>Trabaja con nosotros</option>
+
+                </select>
+			</div>
+			<div class="container__form">
+				<textarea class="form__input" placeholder="Mensaje"></textarea>
+			</div>
+			<input type="submit" class="form__enviar" value="Enviar">
+			<input type="reset" class="form__borrar" value="Borrar">
+		</form>
+	</aside>
 	<footer class="container__footer">
 		<div class="footer__enlaces">
 			<div class="enlaces--modulo">
