@@ -356,7 +356,7 @@ html{
 	height: auto;
 	position: fixed;
 	right: 0;
-	bottom: 350px;
+	bottom: 280px;
 	padding: 10px;
 	background-color: #5F8179;
 	border-radius: 5%;
@@ -440,6 +440,9 @@ html{
 	}
 	.footer__contacto{
 		margin-left: 0px;
+	}
+	.container_redes{
+		bottom: 280px;
 	}
 	
 }
